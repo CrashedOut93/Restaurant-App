@@ -7,7 +7,7 @@ import './Navbar.css';
 
 const Navbar = () => (
   <nav className="app__navbar">
-    Navbar
+    <div></div>
   </nav>
 );
 
