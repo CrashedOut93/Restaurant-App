@@ -70,7 +70,7 @@ color: var(--color-grey);
     z-index: 5;
 }
 
-.app__navbar-smallscreen_overlay .overlay_close{
+.app__navbar-smallscreen_overlay .overlay__close{
     font-size: 27px;
     color: var(--color-golden);
     cursor: pointer;
@@ -79,7 +79,11 @@ color: var(--color-grey);
     right: 20px;
 }
 
-@media screen and (min-width: 1150px){
+.app__navbar-smallscreen_links{
+    list-style: none;
+}
+
+@media screen and (max-width: 1150px){
     .app__navbar-links{
         display: none;
     }
