@@ -113,6 +113,14 @@ color: var(--color-grey);
 
 @media screen and (max-width: 650px){
     .app__navbar{
-        
+        padding: 1rem;
+    }
+
+    .app__navbar-login{
+        display: none;
+    }
+
+    .app__navbar-logo img{
+        width: 110px;
     }
 }
