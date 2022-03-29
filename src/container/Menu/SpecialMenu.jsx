@@ -5,9 +5,18 @@ import './SpecialMenu.css';
 
 const SpecialMenu = () => (
   <div className='app__specialMenu flex__center section__padding' id='menu'>
-    <div>
-    
+    <div className='app__specialMenu-title'>
+      <SubHeading title='Menu rhat fits you palatte' />
+      <h1 className='headtext__cormorant'>Today's Special</h1>
     </div>
+      <div className='app__specialMenu-menu'>
+          <div className='app__specialMenu-menu_wine flex__center'>
+            <p>Wine & Beer</p>
+              <div className='app__specialMenu_menu_items'>
+              
+              </div>
+          </div>
+      </div>
   </div>
 );
 
