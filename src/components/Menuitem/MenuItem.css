@@ -10,3 +10,8 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.app__menuitem-sub{
+    width: 100%;
+    margin-top: 0.2rem;
+}
