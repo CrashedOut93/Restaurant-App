@@ -15,6 +15,11 @@ const Chef = () => (
       <SubHeading title="Chef's Word" />
       <h1 className='headtext__cormorant'>What we believe in</h1>
     </div>
+
+    <div className='app__chef-content'>
+      <div>
+      </div>
+    </div>
   </div>
 );
 
