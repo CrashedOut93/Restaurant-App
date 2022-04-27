@@ -17,7 +17,8 @@ const Chef = () => (
     </div>
 
     <div className='app__chef-content'>
-      <div>
+      <div className='app__chef-content_quote'>
+
       </div>
     </div>
   </div>
