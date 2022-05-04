@@ -26,4 +26,7 @@
     font-family: var(--font-base);
     font-weight: 400;
     font-size: 32;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
 }
