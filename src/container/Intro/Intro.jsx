@@ -7,7 +7,7 @@ import './Intro.css';
 const Intro = () => (
   <div className="app__video">
     <video 
-    
+      src={meal}
     />
   </div>
 );
