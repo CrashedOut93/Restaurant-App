@@ -5,8 +5,10 @@ import { meal } from '../../constants';
 import './Intro.css';
 
 const Intro = () => (
-  <div>
-    Intro
+  <div className="app__video">
+    <video 
+    
+    />
   </div>
 );
 
