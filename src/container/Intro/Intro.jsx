@@ -9,6 +9,9 @@ const Intro = () => (
     <video 
       src={meal}
       type="video/mp4"
+      loop
+      controls={false}
+      muted
     />
   </div>
 );
