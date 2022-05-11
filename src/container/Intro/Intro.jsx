@@ -8,6 +8,7 @@ const Intro = () => (
   <div className="app__video">
     <video 
       src={meal}
+      type="video/mp4"
     />
   </div>
 );
