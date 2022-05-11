@@ -5,6 +5,7 @@ import { meal } from '../../constants';
 import './Intro.css';
 
 const Intro = () => {
+  const vidRef = React.useRef();
   
   return (
   <div className="app__video">
