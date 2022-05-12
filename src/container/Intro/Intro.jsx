@@ -18,7 +18,7 @@ const Intro = () => {
       controls={false}
       muted
     />
-    <div>
+    <div className="app__video-overlay flex">
     
     </div>
   </div>
