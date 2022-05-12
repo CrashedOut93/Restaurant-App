@@ -19,7 +19,7 @@ const Intro = () => {
       muted
     />
     <div className="app__video-overlay flex__center">
-      <div className="app__video">
+      <div className="app__video-overlay_circle">
       
       </div>
     </div>
