@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 import { meal } from '../../constants';
 
 import './Intro.css';
 
 const Intro = () => {
+  useState
   const vidRef = React.useRef();
   
   return (
