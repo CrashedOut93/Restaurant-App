@@ -5,7 +5,7 @@ import { meal } from '../../constants';
 import './Intro.css';
 
 const Intro = () => {
-  useState [playVideo, setPlayVideo] = useState();
+  useState [playVideo, setPlayVideo] = React.useState(false);
   const vidRef = React.useRef();
   
   return (
