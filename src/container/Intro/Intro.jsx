@@ -9,8 +9,8 @@ const Intro = () => {
   const vidRef = React.useRef();
 
   const handleVideo = () => (
-    setPlayVideo((prevPlayVideo) = {
-      
+    setPlayVideo((prevPlayVideo) => {
+
     })
   )
   
