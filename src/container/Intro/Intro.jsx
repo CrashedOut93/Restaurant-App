@@ -13,6 +13,8 @@ const Intro = () => {
 
     if(playVideo) {
       videoRef.current.pause();
+    } else {
+      
     }
   }
   return (
