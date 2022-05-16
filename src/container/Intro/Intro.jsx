@@ -5,15 +5,12 @@ import { meal } from '../../constants';
 import './Intro.css';
 
 const Intro = () => {
-  useState [playVideo, setPlayVideo] = React.useState(false);
+  const [playVideo, setPlayVideo] = React.useState(false);
   const vidRef = React.useRef();
 
-  const handleVideo = () => (
-    setPlayVideo((prevPlayVideo) => {
-
-    })
-  )
-  
+  const handleVideo = () => {
+    setPlayVideo((prevPlayVideo) => !prevPlayVideo)
+  }
   return (
   <div className="app__video">
     <video 
