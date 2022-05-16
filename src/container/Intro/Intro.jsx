@@ -12,9 +12,9 @@ const Intro = () => {
     setPlayVideo((prevPlayVideo) => !prevPlayVideo)
 
     if(playVideo) {
-      videoRef.current.pause();
+      vidRef.current.pause();
     } else {
-      
+
     }
   }
   return (
