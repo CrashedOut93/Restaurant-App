@@ -10,6 +10,10 @@ const Intro = () => {
 
   const handleVideo = () => {
     setPlayVideo((prevPlayVideo) => !prevPlayVideo)
+
+    if(playVideo) {
+      
+    }
   }
   return (
   <div className="app__video">
